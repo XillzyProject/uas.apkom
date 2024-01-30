@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.kepala {
+    background-color: #000268;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: #f1f1f1;
+}
+
+.nav {
+    padding: 5px;
+    background-color: rgb(209, 209, 209);
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vh;
+    text-align: center;
+}
+
+.nav li {
+    list-style-type: none;
+    padding: 5px;
+    margin-right: 40px;
+    border-radius: 5px
+}
+
+
+.nav li:hover {
+    background-color:#000268;
+    transition: .1s ease-in-out;
+    border: 2px solid rgb(171, 171, 171);
+}
+
+.nav ul li a:hover{
+    color: white;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.inpo {
+    text-decoration: none;
+}
+
+.palaa {
+    background-color: rgb(209, 209, 209);
+    padding: 20px;
+    margin-top: 5px;
+    width: 1030px;
+}
+
+.foto {
+    width: 1020px;
+    border-radius: 5px;
+}
+
+.bpt {
+    width: 1020px;
+    border-radius: 5px;
+}
+
+.side{
+    background-color: rgb(209, 209, 209);
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.pakan {
+    width: 220px;
+    border-radius: 5px;
+}
+
+.ass {
+    font-size: 20px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.lokasi {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.bangun {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.buka {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.biaya {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.kapa {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.make {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.terbaik {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.luas {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.keliling {
+    background-color: rgb(119, 119, 119);
+}
+
+.alamat {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.tim {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.pemilik {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.utama {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.atletik {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.stdr {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.std {
+    text-decoration: none;
+}
+
+.bwh {
+    background-color: #000268;
+    margin-top: 5px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.ig {
+    color: white;
+    text-decoration: none;
+}
+
+.ig:hover {
+    color: black;
+}
+
+.foot {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.foot:hover {
+    background-color: rgb(209, 209, 209);
+    transition: .1s ease-in-out;
+    border: 3px solid rgb(119, 119, 119);
+}
+
+
+
+@media(max-width:600px){
+    .kepala{
+        width: 430px;
+    }
+    .nav{
+        width: 420px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .bpt{
+        width: 390px;
+    }
+    .foto{
+        width: 390px;
+    }
+    .palaa{
+        width: 390px;;
+    }
+    .nav ul{
+        height: 1vh;
+    }
+    
+}
+
+@media(min-width:630px){
+    .bwh{
+        width: 100%;
+    }
+}
